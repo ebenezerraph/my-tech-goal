@@ -115,8 +115,6 @@ main {
 }
 
 img {
-     width: 50%;
-     height: auto;
      box-sizing: border-box;
      border-radius: 50px;
      border: 2px #088395 solid;
@@ -187,10 +185,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-     img {
-          width: 100%;
-          height: auto;
-     }
      .intro {
           display: block;
      }
