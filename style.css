@@ -33,6 +33,9 @@
      color: #071952;
 }
 
+h1 {
+     margin: 30px 0;
+}
 body {
      background-color: #37B7C3;
      margin: 10px;
@@ -138,8 +141,8 @@ img {
 
 .skill {
      background-color: #088395;
-     width: 300px;
-     height: 300px;
+     width: 230px;
+     height: 400px;
      box-sizing: border-box;
      padding: 25px;
      border-radius: 30px;
@@ -166,6 +169,10 @@ img {
      flex-direction: row;
      align-items: center;
      justify-content: space-between;
+}
+
+.more div p {
+     margin: 10x 10px 0 0;
 }
 
 footer {
