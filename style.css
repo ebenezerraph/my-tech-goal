@@ -197,6 +197,7 @@ footer {
           display: block;
      }
      .me {
+          display: block;
           max-width: 100%;
      }
      .skills > div {
