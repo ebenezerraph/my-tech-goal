@@ -43,6 +43,7 @@ h1 {
 body {
      background-color: #37B7C3;
      margin: 10px;
+     scroll-behavior: auto;
 }
 
 header {
