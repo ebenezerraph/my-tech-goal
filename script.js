@@ -1,3 +1,4 @@
+// Date and time
 function updateDateTime() {
     const now = new Date();
 
@@ -12,3 +13,14 @@ function updateDateTime() {
 
 updateDateTime();
 setInterval(updateDateTime, 1000);
+
+// Modal
+document.querySelector('.close').addEventListener('click', () => {
+    document.querySelector('.modal').style.display = 'none';
+})
+
+window.onclick = function (event) {
+    if (event.target == document.querySelector('.modal')) {
+        document.querySelector('.modal').style.display = 'none';
+    }
+}
